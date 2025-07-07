@@ -4,9 +4,9 @@
 
 int main () {
     Color GREY = {29, 29, 29, 255};
-    const int WINDOW_WIDTH = 750;
-    const int WINDOW_HEIGHT = 750;
-    const int CELL_SIZE = 15;
+    const int WINDOW_WIDTH = 1000;
+    const int WINDOW_HEIGHT = 1000;
+    const int CELL_SIZE = 4;
     int FPS = 12;
 
     InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Game of Life");
